@@ -7,8 +7,14 @@
 				h3 {
 				text-align: center; text-decoration: underline;
 				}
-				p.double {
-				border-style: double;
+				.absolute {
+   				 position: absolute;top: 300px;left: 1;width: 500px;height: 500px;
+				}
+				.relative {
+    				position: absolute;top: 300px;right: 0;width: 500px;height: 500px;
+				}
+				.blague {
+				position: absolute; top: 300px;left: 50;right: 50;
 				}
 			</style>
 		</head>
@@ -18,13 +24,13 @@
 				<div> <!-- Informations personelles --> </div>
 				<p><b>Jhonny michel</p>
 				<p>51 av du ricard</p>
-				<p>75500 paris</p>
-				<p>Tel : 07 06 05 04 03</p>
+				<p>13000 Marseille</p>
+				<p>Tel : 07 13 13 13 13</p>
 				<p>Mail: jhonny.michel@gmail.com</b></p>
 			</header>
 			<section>
 				<!-- Competences -->
-				<article>
+				<article class=relative>
 					<h2>Competences</h2>
 						<ul>
 							<li style="margin:2px">Masterisation PC et attribution domaine pour une entr&eacute;e sur le r&eacute;seau 								en suivant un cahier des charges</li>
@@ -40,50 +46,54 @@
 			</section>
 			<section>
 				<!-- Experiences -->
-				<article>
+				<article class=absolute>
 					<h2>Experiences</h2> 
-					<article style="text-align:center;background-color:silver;width: 1000px;border: 25px groove gold;padding: 25px;margin: 25px">
+					<article>
+						<div>
 						<h3>2016</h3>
-						<p>Administrateur r&eacute;seau et assistance aux utilisateurs stagiaire Lyc&eacute;e Louis Feuillade &agrave; 							paris<p>						
+						<p>Administrateur r&eacute;seau et assistance aux utilisateurs stagiaire Lyc&eacute;e Louis Feuillade &agrave; 							Marseille<p>						
 						<h3>2016</h3>
-						<p>Employ&eacute; polyvalent stagiaire Foyer Municipal des Retrait&eacute;es &agrave; paris</p>
+						<p>Employ&eacute; polyvalent stagiaire Foyer Municipal des Retrait&eacute;es &agrave; Marseille</p>
 						<h3>2016</h3>
-						<p>Agent d'entretien pour Sud service royal canin &agrave; paris</p>
+						<p>Agent d'entretien pour Sud service royal canin &agrave; Marseille</p>
 						<h3>2013</h3>
-						<p> Assistant administratif stagiaire Direction du Service Technique &agrave; la Mairie de paris </p>
+						<p> Assistant administratif stagiaire Direction du Service Technique &agrave; la Mairie de Marseille </p>
 						<h3>2013</h3>
-						<p> Assistant secr&eacute;taire stagiaire Bureau des mains courantes au Police Municipale de paris</p>
+						<p> Assistant secr&eacute;taire stagiaire Bureau des mains courantes au Police Municipale de Marseile</p>
 						<h3>2013</h3>
-						<p>Agent de s&eacute;curit&eacute; stagiaire LS pour Intermarch&eacute; Les 4 saisons &agrave; paris</p>
+						<p>Agent de s&eacute;curit&eacute; stagiaire LS pour Intermarch&eacute; Les 4 saisons &agrave; Marseille</p>
 						<h3>2010</h3>
-						<p>Ouvrier paysagiste &agrave; paris</p>
+						<p>Ouvrier paysagiste &agrave; Marseille</p>
 						<h3>2009</h3>
-						<p>D&eacute;panneur &eacute;lectrom&eacute;nager stagiaire Ars&egrave;ne D&eacute;pannages &agrave; Domicile (ADD) 							&agrave; paris</p>
+						<p>D&eacute;panneur &eacute;lectrom&eacute;nager stagiaire Ars&egrave;ne D&eacute;pannages &agrave; Domicile (ADD) 							&agrave; Marseille</p>
 						<h3>2009</h3>
-						<p>Vendeur Conseil et R&eacute;parateur stagiaire Comptoir Fournitures Appareils M&eacute;nagers (mocaf) &agrave; 							paris</p>
+						<p>Vendeur Conseil et R&eacute;parateur stagiaire Comptoir Fournitures Appareils M&eacute;nagers (mocaf) &agrave; 							Marseille</p>
 						<h3>2007</h3>
-						<p>Installateur et Conseil en &eacute;quipement &eacute;lectrom&eacute;nagers stagiaire SAV de MDA &agrave; paris</p>
+						<p>Installateur et Conseil en &eacute;quipement &eacute;lectrom&eacute;nagers stagiaire SAV de MDA &agrave; 							Marseille</p>
 						<h3>2006</h3>
-						<p>Ouvrier agricole Exploitation de MARTIN michel &agrave; paris</p>
+						<p>Ouvrier agricole Exploitation de MARTIN michel &agrave; Marseille</p>
 					</article>
 				</article>
 			</section>
 			<section>
 				<!-- Diplomes -->
-				<article>
+				<article class=fixe>
 					<h2>Diplomes</h2>
-					<p class="double"><b>Bep</b> &eacute;lectronique</p>
+					<p><b>Bep</b> &eacute;lectronique</p>
 					<p><b>BAC PRO</b> systeme &eacute;lectronique et numerique (non valid&eacute;)</p>
 					<p><b>Certification</b> Cl&eacute;a</p>
 					<p><b>Diplome</b> premier secours</p>
-					
 				</article>
 			</section>
 			<section>
 				<!-- Loisirs -->
 				<article>
 					<h2>Loisirs</h2>
-					<p>Euuuuh</p>
+					<ol>
+					<p>Fusce sit amet metus vel purus fermentum scelerisque quis non magna.</p>
+ 	   				<p>Nulla vitae lectus ut odio blandit semper.</p>
+    					<p>Cras eget nulla at nunc euismod porttitor id eget nulla.</p>
+					</ol>
 			</section>
 		</body>
 	</html>
