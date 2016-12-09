@@ -1,0 +1,80 @@
+html
+{
+background-color: #008080;
+font-family: arial;
+} 
+
+/*/ J'applique une couleur de font bleu clair /*/
+
+
+header
+{
+text-align: center
+}
+
+/*/ J'applique police arial et je centre le contenu /*/
+
+
+h1,h2 
+{
+color: black;
+text-align:center;
+text-shadow:3px 3px silver;
+border:3px solid black;
+border-radius:7px;
+text-transform:uppercase;
+font-style:oblique;
+font-family:arial;
+background-color: #0080ff;
+}
+
+/*/ J'applique une police arial, une couleur noire et un style oblique. J'applique aussi une ombre silver de 3px sur 3px, je les encadre avec une bordure noire de 3px avec un radius de 7px et une couleur de font bleu clair. /*/
+
+
+h3 {
+text-align: center;
+text-decoration: underline;
+}
+
+/*/ J'applique un centrage de texte et je les soulignes /*/
+
+
+.absolute {
+position: absolute;
+top: 275px;
+left: 1;
+width: 380px;
+height: 500px;
+}
+
+/*/ Je choisi une position absolue pour l'article>competences a 300px du haut, 1px de gauche et de taille 500px sur 500px /*/
+
+
+.blague {
+position: absolute;
+top: 275px;
+right: 0;
+width: 380px;
+height: 500px;
+}
+
+/*/ Je choisi une position absolue pour l'aricle>experiences a 300px du haut, 0px a droite et de taille 500px sur 500px /*/
+
+
+.tip {
+position: absolute;
+top: 275px;
+right: 405px;
+left: 405px;
+}
+
+/*/ Je centre diplome, a 405 du bord droit et gauche et 300px du haut /*/
+
+
+.top {
+position: absolute;
+top: 650px;
+width: 900px
+}
+
+/*/ A 650px de haut et taille de 900px /*/
