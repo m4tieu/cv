@@ -40,41 +40,40 @@ text-decoration: underline;
 
 
 .absolute {
-position: absolute;
-top: 275px;
-left: 1;
+position: relative;
+top: 1px;
 width: 380px;
-height: 500px;
+height: 310px;
 }
 
 /*/ Je choisi une position absolue pour l'article>competences a 300px du haut, 1px de gauche et de taille 500px sur 500px /*/
 
 
 .blague {
-position: absolute;
-top: 275px;
-right: 0;
+position: relative;
+top: 1px;
+left: 400px;
 width: 380px;
-height: 500px;
+height: 1035px;
 }
 
 /*/ Je choisi une position absolue pour l'aricle>experiences a 300px du haut, 0px a droite et de taille 500px sur 500px /*/
 
 
 .tip {
-position: absolute;
-top: 275px;
-right: 405px;
-left: 405px;
+position: relative;
+top: 1px;
+width: 500px;
+left: 800px;
 }
 
 /*/ Je centre diplome, a 405 du bord droit et gauche et 300px du haut /*/
 
 
 .top {
-position: absolute;
-top: 650px;
-width: 900px
+position: relative;
+top: 1px;
+width: 470px
 }
 
 /*/ A 650px de haut et taille de 900px /*/
