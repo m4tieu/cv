@@ -1,21 +1,36 @@
 html
 {
-background-color: #008080;
-font-family: arial;
+background-color: #99b6b0 ;
+font-family: Cursive ;
 } 
 
-/*/ J'applique une couleur de font bleu clair /*/
-
-
+/*/ Couleur de font et arial tout le contenu de la page /*/
+body {
+  padding:0;
+  margin:0;
+}
 header
 {
-text-align: center
+text-align: center;
+border:3px solid black;
+border-radius:10px;
+margin: 100px;
+padding: 100px;
 }
 
-/*/ J'applique police arial et je centre le contenu /*/
+/*/  /*/
 
 
-h1,h2 
+h1
+{
+color: black;
+text-align:center;
+text-shadow:3px 3px silver;
+font-style:oblique;
+background-color: #1dd5ec;
+width: 100%}
+
+h2
 {
 color: black;
 text-align:center;
@@ -24,11 +39,10 @@ border:3px solid black;
 border-radius:7px;
 text-transform:uppercase;
 font-style:oblique;
-font-family:arial;
-background-color: #0080ff;
+background-color: #1dd5ec;
 }
 
-/*/ J'applique une police arial, une couleur noire et un style oblique. J'applique aussi une ombre silver de 3px sur 3px, je les encadre avec une bordure noire de 3px avec un radius de 7px et une couleur de font bleu clair. /*/
+/*/  /*/
 
 
 h3 {
@@ -36,48 +50,51 @@ text-align: center;
 text-decoration: underline;
 }
 
-/*/ J'applique un centrage de texte et je les soulignes /*/
+/*/  /*/
 
 
-.absolute {
-position: relative;
-top: 1px;
-width: 380px;
-height: 310px;
+class competence {
+top: 30px;
 }
 
-/*/ Je choisi une position absolue pour l'article>competences a 300px du haut, 1px de gauche et de taille 500px sur 500px /*/
+/*/  /*/
 
 
-.blague {
-position: relative;
-top: 1px;
-left: 400px;
-width: 380px;
-height: 1035px;
+#exp {
+
 }
 
-/*/ Je choisi une position absolue pour l'aricle>experiences a 300px du haut, 0px a droite et de taille 500px sur 500px /*/
+/*/  /*/
 
 
-.tip {
-position: relative;
-top: 1px;
-width: 500px;
-left: 800px;
+#dip {
+
 }
 
-/*/ Je centre diplome, a 405 du bord droit et gauche et 300px du haut /*/
+/*/  /*/
 
 
-.top {
-position: relative;
-top: 1px;
-width: 470px
+#loi {
+
 }
 
-/*/ A 650px de haut et taille de 900px /*/
+/*/  /*/
 
-li{
+nav {
+position: fixed;
+list-style-type: none;
+background-color: #99b6b0;
+width: 100%;
+z-index: 1;
+margin: 0;
+padding: 0;
+height: 50px;
+top: 0px;
+bottom: 0px;
+
+}
+
+/*/  /*/
+nav li {
 display: inline;
 }
