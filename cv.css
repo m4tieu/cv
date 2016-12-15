@@ -1,89 +1,85 @@
-html
-{
-background-color: #99b6b0 ;
+html{
+background-color: #5aa63b ;
 font-family: Cursive ;
 } 
+/*/ J'applique une couleur et une police a toute la page /*/
 
-/*/ Couleur de font et arial tout le contenu de la page /*/
-body {
-  padding:0;
-  margin:0;
+
+
+body{
+padding:0;
+margin:0;
 }
-header
-{
+/*/ J'enleve les marge du body /*/
+
+
+
+header{
+background-color: #c9ffb3; 
 text-align: center;
-border:3px solid black;
-border-radius:10px;
 margin: 100px;
 padding: 100px;
+box-shadow: 15px 15px 15px black;
 }
-
 /*/  /*/
 
 
-h1
-{
-color: black;
-text-align:center;
-text-shadow:3px 3px silver;
-font-style:oblique;
-background-color: #1dd5ec;
-width: 100%}
 
-h2
-{
+h1{
 color: black;
 text-align:center;
-text-shadow:3px 3px silver;
-border:3px solid black;
-border-radius:7px;
+text-shadow:3px 3px grey;
+font-style:oblique;
+width: 100%;
+font-family: Avantgarde;
+}
+/*/  /*/
+
+
+
+h2{
+color: black;
+text-align:center;
+text-shadow:3px 3px white;
 text-transform:uppercase;
 font-style:oblique;
-background-color: #1dd5ec;
+background-color: #c9ffb3;
 }
-
 /*/  /*/
 
 
-h3 {
+
+h3{
 text-align: center;
 text-decoration: underline;
 }
-
 /*/  /*/
 
 
-class competence {
-top: 30px;
+
+box{
+display: inline-block; 
+background: red; 
+width: 400px; 
+height: auto; 
+float: left; 
+margin: 4px;
+color: white; 
 }
-
 /*/  /*/
 
 
-#exp {
 
-}
-
-/*/  /*/
-
-
-#dip {
-
-}
-
-/*/  /*/
+a:link { 
+text-decoration:none; 
+} 
+/*/ /*/
 
 
-#loi {
 
-}
-
-/*/  /*/
-
-nav {
+nav{
 position: fixed;
 list-style-type: none;
-background-color: #99b6b0;
 width: 100%;
 z-index: 1;
 margin: 0;
@@ -91,10 +87,27 @@ padding: 0;
 height: 50px;
 top: 0px;
 bottom: 0px;
-
 }
-
 /*/  /*/
-nav li {
+
+
+
+nav li{
 display: inline;
 }
+/*/  /*/
+
+
+
+footer{
+position:fixed;
+background-color:#c9ffb3;
+width: 100%;
+z-index: 1;
+height: 20px;
+bottom: 0px;
+margin: 0;
+padding: 0;
+height: 35px;
+}
+
