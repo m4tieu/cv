@@ -1,0 +1,14 @@
+nav{
+position: fixed;
+width: 100%;
+z-index: 1;
+height: 30px;
+top: 0px;
+background-color: #c9ffb3;
+box-shadow: 0px 15px 15px #c9ffb3;
+overflow: hidden;
+}
+
+nav li{
+display: inline;
+}
